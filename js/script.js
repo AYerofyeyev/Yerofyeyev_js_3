@@ -1,7 +1,7 @@
+var wrapper = document.createElement('div');
+var headerText = document.createElement('h1');
 
-do {
-var x = prompt("Число", "");
-console.log(typeof(x) );
-var x = +x;
-} while ( (x < 0) != isNaN(x) );
-console.log(typeof(x) );
+document.createElement('ul');
+for (var i = 0; i < 3; i++) {
+  document.createElement('li');
+}
